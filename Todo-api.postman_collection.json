@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "1d0f7110-e60a-4352-82be-c7c09b794e88",
+		"name": "Todo-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "View All Todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/todo/gets",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"todo",
+						"gets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Individual Todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/todo/get/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"todo",
+						"get",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Todo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/todo/store?name=trirhd&content=wefwgfewgqewrgg",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"todo",
+						"store"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "trirhd"
+						},
+						{
+							"key": "content",
+							"value": "wefwgfewgqewrgg"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update todo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/todo/update/2?name=fwfwf",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"todo",
+						"update",
+						"2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "fwfwf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Todo",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
