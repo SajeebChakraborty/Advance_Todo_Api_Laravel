@@ -1,63 +1,61 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+View All todo
+-------------------
+URL - localhost:8000/api/todo/gets
+<br>
+Request - GET
+<br>
+Params - None
+<br>
+![Screenshot (506)](https://github.com/SajeebChakraborty/Advance_Todo_Api_Laravel/assets/48250220/10a348aa-3ac1-40d7-840b-e4953ed46d3e)
+<br>
+<br>
+View Individual todo
+-------------------
+URL - localhost:8000/api/todo/get/{id}
+<br>
+Request - GET
+<br>
+Params - None
+<br>
+Example - localhost:8000/api/todo/get/1
+<br>
+![Screenshot (507)](https://github.com/SajeebChakraborty/Advance_Todo_Api_Laravel/assets/48250220/965dbe40-400d-4062-ba49-73308e2fa229)
+<br>
+<br>
+Create todo
+-------------------------
+URL - localhost:8000/api/todo/store
+<br>
+Request - POST
+<br>
+Params - name,content
+<br>
+Example - localhost:8000/api/todo/store?name=trirhd&content=wefwgfewgqewrgg
+<br>
+![Screenshot (508)](https://github.com/SajeebChakraborty/Advance_Todo_Api_Laravel/assets/48250220/b1bdaac2-df5b-4fa9-8c9b-a82a647b30f7)
+<br>
+<br>
+Update todo
+-------------------------
+URL - localhost:8000/api/todo/update/{id}
+<br>
+Request - PATCH
+<br>
+Params - name,content
+<br>
+Example - localhost:8000/api/todo/update/1?name=Extra_Task&content=ewsd
+<br>
+![Screenshot (509)](https://github.com/SajeebChakraborty/Advance_Todo_Api_Laravel/assets/48250220/cc895ebd-657c-4416-9334-0908d451e414)
+<br>
+<br>
+Delete todo
+-------------------------
+URL - localhost:8000/api/todo/delete/{id}
+<br>
+Request - DELETE
+<br>
+Params - None
+<br>
+Example - localhost:8000/api/todo/delete/3
+<br>
+![Screenshot (510)](https://github.com/SajeebChakraborty/Advance_Todo_Api_Laravel/assets/48250220/c703f9d5-8333-4110-a939-16b96a29d95f)
