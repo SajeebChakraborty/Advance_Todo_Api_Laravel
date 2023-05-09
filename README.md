@@ -42,7 +42,7 @@ Update todo
 -------------------------
 URL - localhost:8000/api/todo/update/{id}
 <br>
-Request - PATCH
+Request - PUT
 <br>
 Params - name,content
 <br>
